@@ -1,0 +1,29 @@
+[
+    {
+        "flowerstext" : "Fresh Flowers",
+        "shop" : "Shop now",
+        "right":"arrow-right.png",
+        "flowerimage" : "flowerimage1.png",
+        "flowerstext2" : "Dried Flowers",
+        "flowerimage2" : "card item.png",
+        "left" : "arrow-left.png"
+    },
+    {
+        "flowerstext" : "Fresh Flowers",
+        "shop" : "Shop now",
+        "right":"arrow-right.png",
+        "flowerimage" : "flowerimage1.png",
+        "flowerstext2" : "Dried Flowers",
+        "flowerimage2" : "card item.png",
+        "left" : "arrow-left.png"
+    },
+    {
+        "flowerstext" : "Fresh Flowers",
+        "shop" : "Shop now",
+        "right":"arrow-right.png",
+        "flowerimage" : "flowerimage1.png",
+        "flowerstext2" : "Dried Flowers",
+        "flowerimage2" : "card item.png",
+        "left" : "arrow-left.png"
+    }
+]
