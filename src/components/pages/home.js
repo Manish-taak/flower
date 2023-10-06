@@ -5,6 +5,7 @@ import Choose from '../home/choose.js'
 import Clients from '../home/clients.js'
 import Service from '../home/service.js'
 import Contact from '../home/contact.js'
+import Attachment from '../home/attachment.js'
 
 const Home = () => {
   return (
@@ -13,9 +14,10 @@ const Home = () => {
         <Banner/>
         <About/>
         <Choose/>
-        <Clients/>
-        <Service/>
         <Contact/>
+        <Service/>
+        <Attachment/>
+        <Clients/>
     
    </main>
   )

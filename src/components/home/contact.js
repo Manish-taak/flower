@@ -33,7 +33,6 @@ const Contact = () => {
                       <img src={call} />
                       <div>
                       <p>+380980099777</p>
-
                       </div>
                     </div>
                     <div className="first-number">
@@ -65,10 +64,12 @@ const Contact = () => {
             </div>
             <div className="contact-right">
               <div className="right-contact-image">
-               <img src={right} />
+               <img className='kyiv-contact-image' src={right} />
                <div className="right-image-buttom-text-icon">
                   <div className="follow-icon">
-                    Follow
+                   <h2>
+                    Follow us
+                   </h2>
                   </div>
                   <div className="follow-icon">
                     <img src={instagram} />
