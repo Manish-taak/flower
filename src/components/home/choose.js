@@ -15,7 +15,7 @@ const Choose = () => {
           {
             choose.map((index, item) => {
               return (
-                <div className="choose-right-child">
+                <div className="choose-right-child" key={item} >
                   <h2>{index["chose-h2"]}</h2>
                   <p>{index["choose-p"]}</p>
                 </div>

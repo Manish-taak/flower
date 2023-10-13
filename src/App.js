@@ -1,35 +1,36 @@
 import './App.css';
 import Header from './components/common/header.js'
 import Footer from './components/common/footer.js'
-import About from './components/pages/aboutus.js'
+import Aboutus from './components/pages/aboutus.js'
 import Cart from './components/pages/cart.js'
-import Category from './components/pages/category.js'
+import Category from './components/pages/category'
 import Contactinfo from './components/pages/contactinfo.js'
 import Product from './components/pages/product.js'
 import Subscription from './components/pages/subscription.js'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from './components/pages/home';
+import Contact from './components/pages/contactinfo'
+import Home from './components/pages/home.js';
 
 
 function App() {
   return (
     <>
-      {/* <Header/> */}
-      
+      {/* <Headers /> */}
       <BrowserRouter>
-      <Routes>
-      <Route element={<Header />} path="" >
-          <Route element={<Home />} path="/" />
-          <Route element={<About />} path="/About" />
-          <Route element={<Cart />} path="/Cart" />
-          <Route element={<Category />} path="/Category" />
-          <Route element={<Contactinfo />} path="/Contactinfo" />
-          <Route element={<Product />} path="/Product" />
-          <Route element={<Subscription />} path="/Subscription" />
-      </Route>
+        <Routes>
+          <Route element={<Header />} path='' >
+            <Route element={<Home />} path='/home' />
+            <Route element={<Aboutus />} path='/Aboutus' />
+            <Route element={<Cart />} path='/Cart' />
+            <Route element={<Category />} path='/category' />
+            <Route element={<Contactinfo />} path='/Contactinfo' />
+            <Route element={<Product />} path='/Product' />
+            <Route element={<Contact />} path='/Contact' />
+            <Route element={<Subscription />} path='/Subscription'/>
+          </Route>
         </Routes>
       </BrowserRouter>
-      <Footer/>
+      <Footer />
     </>
   );
 }

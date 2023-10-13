@@ -1,21 +1,20 @@
 import React from 'react'
-import image from '../image/flowerimage1.png'
+// import image from '../image/flowerimage1.png'
 import image2 from '../image/img hero.png'
-import rightarrow from '../image/arrow-right.png'
+// import rightarrow from '../image/arrow-right.png'
 import Rimage from '../image/rrrr.png'
-import image3 from '../image/card item.png'
-import left from '../image/arrow-left.png'
+// import image3 from '../image/card item.png'
+// import left from '../image/arrow-left.png'
 import Card from '../json/Card.json'
 const Banner = () => {
   return (
     <>
       <section>
-          <div class="grid-banner">
-
-          <div class="item1">
+          <div className="grid-banner">
+          <div className="item1">
               <div className="top-item-1">
                 <h2 className='item-1-h2-text'>
-                  Kyiv <br /> LuxeBouquets
+                  Kyiv  LuxeBouquets
                   <img src={Rimage} />
                 </h2>
                 <p className='item-1-p-text'>
@@ -31,11 +30,11 @@ const Banner = () => {
                 </div>
               </div>
             </div>
-          <div className="item2">
-              {
+            <div className="item2">
+               {
                 Card.map((index, item) => {
                   return (
-                    <div class="item2-firstchild">
+                    <div className="item2-firstchild" key={item} >
                       <div className="item-2-box-1">
                         <h2>{index["flowerstext"]}</h2>
                         <div className="shop-now">
@@ -60,10 +59,9 @@ const Banner = () => {
                   )
                 })
               }
-            </div>
-           
+            </div> 
           </div>
-      </section>
+      </section> 
     </>
   )
 }

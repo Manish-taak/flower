@@ -18,15 +18,15 @@ const Footer = () => {
         </div>
         <div className="footer-content footer-common">
            <h2>Contact Us</h2>
-           <label htmlFor="">Address
+           <p className='footer-p-content' >Address
             <li>15/4 Khreshchatyk Street, Kyiv </li>
-           </label>
-           <label htmlFor="">Phone
+           </p>
+           <p className='footer-p-content' >Phone
             <li>+380980099777</li>
-           </label>
-           <label htmlFor="">General Enquiry:
+           </p>
+           <p className='footer-p-content' >General Enquiry:
             <li>Kiev.Florist.Studio@gmail.com</li>
-           </label>
+           </p>
            <h2>Follow Us</h2>
            <div className="sites-brands brands">
              <img src={instagram} alt="" />

@@ -1,4 +1,5 @@
 import React from 'react'
+// import Ban from '../home/ban.js'
 import Banner from '../home/banner.js'
 import About from '../home/about.js'
 import Choose from '../home/choose.js'
@@ -10,7 +11,7 @@ import Attachment from '../home/attachment.js'
 const Home = () => {
   return (
    <main>
-     
+    {/* <Ban/> */}
         <Banner/>
         <About/>
         <Choose/>
@@ -18,7 +19,6 @@ const Home = () => {
         <Service/>
         <Attachment/>
         <Clients/>
-    
    </main>
   )
 }
