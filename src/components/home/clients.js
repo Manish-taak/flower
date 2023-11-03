@@ -15,22 +15,22 @@ const Client = () => {
       <div className="clients-main">
         <div className="clients-top">
           <img src={Google} alt="" />
-          <p>Reviews</p>
-          <h2>Our Clients say</h2>
+          <p className='clients-p-text' >Reviews</p>
+          <h2 className='clients-h2-text common-h-50 ' >Our Clients say</h2>
         </div>
-      <Swiper
+        <Swiper
         cssMode={true}
-        navigation={true}
+        // navigation={true}
         pagination={true}
         mousewheel={true}
         keyboard={true}
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
         className="mySwiper"
-      >
+        >
         <SwiperSlide>
           <div className="slides">
-          <h3>“Ordered flowers online and they were the best bouquet! Impressed everyone around. Highly recommend this flower shop!”</h3>
-        <p>– Ronald Richards</p>
+            <h3>“Ordered flowers online and they were the best bouquet! Impressed everyone around. Highly recommend this flower shop!”</h3>
+            <p>– Ronald Richards</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -58,8 +58,8 @@ const Client = () => {
           </div>
         </SwiperSlide>
 
-      </Swiper>
-        <button type="button">Read reviews</button>
+        </Swiper>
+        <button className='clients-btn btn-white'  type="button">Read reviews</button>
       </div>
     </section>
     </>

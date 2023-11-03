@@ -1,0 +1,63 @@
+[
+    {
+        "image1" : "productimage1.png",
+        "h3" : "Glass Vase",
+        "p" : "$15"
+    },
+    {
+        "image1" : "productimage2.png",
+        "h3" : "Hammershoi",
+        "p" : "$45"
+    },
+    {
+        "image1" : "productimage3.png",
+        "h3" : "Ceramic Vase",
+        "p" : "$35"
+    },
+    {
+        "image1" : "productimage4.png",
+        "h3" : "Steel vase",
+        "p" : "$25"
+    },
+    {
+        "image1" : "productimage5.png",
+        "h3" : "Bamboo",
+        "p" : "$36"
+    },{
+        "image1" : "productimage5.png",
+        "h3" : "Bamboo",
+        "p" : "$36"
+    },{
+        "image1" : "productimage5.png",
+        "h3" : "Bamboo",
+        "p" : "$36"
+    },{
+        "image1" : "productimage5.png",
+        "h3" : "Bamboo",
+        "p" : "$36"
+    },{
+        "image1" : "productimage5.png",
+        "h3" : "Bamboo",
+        "p" : "$36"
+    },{
+        "image1" : "productimage5.png",
+        "h3" : "Bamboo",
+        "p" : "$36"
+    },{
+        "image1" : "productimage5.png",
+        "h3" : "Bamboo",
+        "p" : "$36"
+    },{
+        "image1" : "productimage5.png",
+        "h3" : "Bamboo",
+        "p" : "$36"
+    },{
+        "image1" : "productimage5.png",
+        "h3" : "Bamboo",
+        "p" : "$36"
+    },{
+        "image1" : "productimage5.png",
+        "h3" : "Bamboo",
+        "p" : "$36"
+    }
+]
